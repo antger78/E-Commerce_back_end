@@ -16,6 +16,7 @@ router.get('/', (req, res) => {
     res.status(500).json(err);
   })
 });
+
 // Done
 router.get('/:id', (req, res) => {
   // find one category by its `id` value
@@ -36,6 +37,7 @@ router.get('/:id', (req, res) => {
     res.status(500).json(err);
   })
 });
+
 // Done
 router.post('/', (req, res) => {
   // create a new category
